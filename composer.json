@@ -1,0 +1,9 @@
+{
+  "name": "refa/website",
+  "description": "REFA — Remittance Fighters Association community website",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.0",
+    "phpmailer/phpmailer": "^6.9"
+  }
+}

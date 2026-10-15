@@ -1,0 +1,17 @@
+.env
+config/credentials.php
+/vendor/
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/mail/*
+!/storage/mail/.gitkeep
+/assets/uploads/**
+!/assets/uploads/.gitkeep
+!/assets/uploads/**/.gitkeep
+!/assets/uploads/.htaccess
+.DS_Store
+Thumbs.db
+*.log
+composer.lock
+.idea/
+.vscode/

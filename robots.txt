@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /member/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /sql/
+Disallow: /storage/
+Disallow: /lang/

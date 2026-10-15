@@ -1,0 +1,11 @@
+# Hosting upload
+
+1. phpMyAdmin-এ ডাটাবেজ `refabdco_main` সিলেক্ট করুন।
+2. Import → `sql/schema.sql` আপলোড করুন।
+3. জিপ আনজিপ করে **ফাইলগুলো সরাসরি** `public_html`-এ তুলুন।
+   `public_html/index.php` দেখা যেতে হবে — ভিতরে আরেকটা ফোল্ডার (`REFA-website/index.php`) থাকলে চলবে না।
+4. `.env` এবং `config/credentials.php` সাথে থাকতে হবে (ডাটাবেজ কানেকশন এখানেই সেট করা আছে)।
+5. সাইট খুলুন। অ্যাডমিন: `/admin/login.php` — `admin@refa.org` / `password` (লগইনের পর পাসওয়ার্ড বদলান)।
+6. `storage` এবং `assets/uploads` ফোল্ডার রাইটেবল রাখুন (সাধারণত 755)।
+
+ডাটাবেজ হোস্ট: localhost — সাইট ও MySQL একই সার্ভারে থাকলে কাজ করবে।
